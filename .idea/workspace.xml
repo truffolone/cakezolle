@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8e90444-247d-4599-9421-2a9d48b69ea2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/adyen/php-api-library" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1izvSwfnwSuQPkVK4qf6SyvPcKw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../finanzaworld" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8e90444-247d-4599-9421-2a9d48b69ea2" name="Default Changelist" comment="" />
+      <created>1602923238181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602923238181</updated>
+      <workItem from="1602923239208" duration="2664000" />
+      <workItem from="1603096753931" duration="10000" />
+      <workItem from="1603096776640" duration="9000" />
+      <workItem from="1603194097249" duration="930000" />
+      <workItem from="1603263467540" duration="743000" />
+      <workItem from="1603293176535" duration="1504000" />
+      <workItem from="1603349899888" duration="612000" />
+      <workItem from="1603359615822" duration="1586000" />
+      <workItem from="1603435999521" duration="599000" />
+      <workItem from="1603610870123" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="681" y="375" width="614" height="354" key="#Notifications" timestamp="1602923244354">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="681" y="375" width="614" height="354" key="#Notifications/67.27.1853.1053@67.27.1853.1053" timestamp="1602923244354" />
+    <state x="773" y="310" key="FileChooserDialogImpl" timestamp="1603610927694">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="773" y="310" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1603610927694" />
+    <state x="467" y="187" key="SettingsEditor" timestamp="1603194220056">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="467" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1603194220056" />
+    <state x="676" y="275" width="678" height="554" key="find.popup" timestamp="1603362087073">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="676" y="275" width="678" height="554" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1603362087073" />
+  </component>
+</project>

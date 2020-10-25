@@ -1,0 +1,1031 @@
+@font-face {
+  font-family: 'Marker-Felt';
+  src: url("../fonts/markerfelt-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/markerfelt-webfont.woff") format("woff"), url("../fonts/markerfelt-webfont.svg#Marker-Felt") format("svg"), url("../fonts/markerfelt-webfont.eot");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 37, ../sass/impronta.scss */
+body {
+  font-family: "Montserrat",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+  color: #777;
+}
+
+/* line 42, ../sass/impronta.scss */
+a, span, i {
+  transition: color 0.3s ease-in-out 0s;
+}
+
+/* line 46, ../sass/impronta.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 50, ../sass/impronta.scss */
+.navbar {
+  background: #fff;
+  box-shadow: 0 4px 2px -2px #888888;
+}
+
+/* line 55, ../sass/impronta.scss */
+#logo {
+  height: 40px;
+  position: relative;
+  top: 5px;
+}
+
+/* line 61, ../sass/impronta.scss */
+#header-bkg-cont {
+  width: 100%;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  z-index: -1;
+}
+
+/* line 69, ../sass/impronta.scss */
+#sitephrase {
+  font-family: 'Damion';
+  /*font-family: 'Marker-Felt';*/
+  position: relative;
+  top: 10px;
+}
+
+/* line 75, ../sass/impronta.scss */
+.markerfelt {
+  /*font-family: 'Marker-Felt';*/
+  font-family: 'Damion';
+}
+
+/* line 80, ../sass/impronta.scss */
+#submenu .btn {
+  border: 0;
+  font-family: "Montserrat",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  height: 70px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+}
+
+/* line 91, ../sass/impronta.scss */
+#submenu .btn.orange, .navbar-right .orange {
+  border-bottom: 5px solid #FF8F3C;
+}
+
+/* line 95, ../sass/impronta.scss */
+#submenu .btn.orange:hover, .navbar-right .orange:hover {
+  color: #fff;
+  background: #FF8F3C;
+}
+
+/* line 100, ../sass/impronta.scss */
+#submenu .btn.yellow, .navbar-right .yellow {
+  border-bottom: 5px solid #FFC232;
+}
+
+/* line 104, ../sass/impronta.scss */
+#submenu .btn.yellow:hover, .navbar-right .yellow:hover {
+  color: #fff;
+  background: #FFC232;
+}
+
+/* line 109, ../sass/impronta.scss */
+#submenu .btn.violet, .navbar-right > .violet {
+  border-bottom: 5px solid #D60093;
+}
+
+/* line 113, ../sass/impronta.scss */
+#submenu .btn.violet:hover, .navbar-right .violet:hover {
+  color: #fff;
+  background: #D60093;
+}
+
+/* line 118, ../sass/impronta.scss */
+#submenu .btn.green {
+  border-bottom: 5px solid #9BDB2B;
+}
+
+/* line 122, ../sass/impronta.scss */
+#submenu .btn.green:hover {
+  color: #fff;
+  background: #9BDB2B;
+}
+
+/* line 127, ../sass/impronta.scss */
+.breadcrumb {
+  /*background-color: #fff;*/
+  background: rgba(255, 255, 255, 0);
+}
+
+/* line 132, ../sass/impronta.scss */
+.bkg-orange {
+  background: #FF8F3C;
+}
+
+/* line 136, ../sass/impronta.scss */
+.bkg-yellow {
+  background: #FFC232;
+}
+
+/* line 140, ../sass/impronta.scss */
+.bkg-dark-yellow {
+  background: #F9AB24;
+}
+
+/* line 144, ../sass/impronta.scss */
+.bkg-green {
+  background: #9BDB2B;
+}
+
+/* line 148, ../sass/impronta.scss */
+.bkg-turquoise {
+  background: #64DDAE;
+}
+
+/* line 152, ../sass/impronta.scss */
+.bkg-lightblue {
+  background: #64CEF1;
+}
+
+/* line 156, ../sass/impronta.scss */
+.bkg-blue {
+  background: #64ADF1;
+}
+
+/* line 160, ../sass/impronta.scss */
+.bkg-red {
+  background: #F93030 !important;
+}
+
+/* line 164, ../sass/impronta.scss */
+.white {
+  color: #fff !important;
+}
+
+/* line 168, ../sass/impronta.scss */
+.violet {
+  color: #FF00AF !important;
+}
+
+/* line 172, ../sass/impronta.scss */
+.side-title {
+  line-height: 40px;
+  border-bottom: 4px solid #eee;
+}
+
+/* line 177, ../sass/impronta.scss */
+#subheader {
+  margin-top: 50px;
+  padding-top: 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 185, ../sass/impronta.scss */
+.title {
+  margin-bottom: 60px;
+}
+
+/* line 189, ../sass/impronta.scss */
+#subheader .title {
+  text-shadow: 1px 1px 1px #999;
+}
+
+/* line 196, ../sass/impronta.scss */
+#prossima-consegna {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* line 201, ../sass/impronta.scss */
+#categorie-ml {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 206, ../sass/impronta.scss */
+#categorie-ml a:hover {
+  text-decoration: none;
+  color: #DFFF5F !important;
+}
+
+/* line 211, ../sass/impronta.scss */
+#categorie-ml li {
+  background: none;
+  border: 0;
+}
+
+/* line 216, ../sass/impronta.scss */
+#categorie-ml a {
+  color: #fff;
+}
+
+/* line 220, ../sass/impronta.scss */
+h2.titolo-ml {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #9BDB2B;
+  margin-bottom: 30px;
+}
+
+/* line 226, ../sass/impronta.scss */
+h3.titolo-ml {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #9BDB2B;
+  margin-bottom: 30px;
+}
+
+/* line 232, ../sass/impronta.scss */
+h2.titolo-zolle {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #FFC232;
+  margin-bottom: 30px;
+}
+
+/* line 238, ../sass/impronta.scss */
+h2.titolo-profilo {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #FF8F3C;
+  margin-bottom: 30px;
+}
+
+/* line 244, ../sass/impronta.scss */
+h3.titolo-profilo2 {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #FF8F3C;
+  margin-bottom: 30px;
+}
+
+/* line 250, ../sass/impronta.scss */
+.icon-animated-bell {
+  display: inline-block;
+  -moz-animation: ringing 2s infinite ease 1s;
+  -webkit-animation: ringing 2s infinite ease 1s;
+  -o-animation: ringing 2s infinite ease 1s;
+  -ms-animation: ringing 2s infinite ease 1s;
+  animation: ringing 2s infinite ease 1s;
+  -moz-transform-origin: 50% 0;
+  -webkit-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+}
+
+@-moz-keyframes ringing {
+  0% {
+    -moz-transform: rotate(-15deg);
+  }
+  2% {
+    -moz-transform: rotate(15deg);
+  }
+  4% {
+    -moz-transform: rotate(-18deg);
+  }
+  6% {
+    -moz-transform: rotate(18deg);
+  }
+  8% {
+    -moz-transform: rotate(-22deg);
+  }
+  10% {
+    -moz-transform: rotate(22deg);
+  }
+  12% {
+    -moz-transform: rotate(-18deg);
+  }
+  14% {
+    -moz-transform: rotate(18deg);
+  }
+  16% {
+    -moz-transform: rotate(-12deg);
+  }
+  18% {
+    -moz-transform: rotate(12deg);
+  }
+  20% {
+    -moz-transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes ringing {
+  0% {
+    -webkit-transform: rotate(-15deg);
+  }
+  2% {
+    -webkit-transform: rotate(15deg);
+  }
+  4% {
+    -webkit-transform: rotate(-18deg);
+  }
+  6% {
+    -webkit-transform: rotate(18deg);
+  }
+  8% {
+    -webkit-transform: rotate(-22deg);
+  }
+  10% {
+    -webkit-transform: rotate(22deg);
+  }
+  12% {
+    -webkit-transform: rotate(-18deg);
+  }
+  14% {
+    -webkit-transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-12deg);
+  }
+  18% {
+    -webkit-transform: rotate(12deg);
+  }
+  20% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+@-ms-keyframes ringing {
+  0% {
+    -ms-transform: rotate(-15deg);
+  }
+  2% {
+    -ms-transform: rotate(15deg);
+  }
+  4% {
+    -ms-transform: rotate(-18deg);
+  }
+  6% {
+    -ms-transform: rotate(18deg);
+  }
+  8% {
+    -ms-transform: rotate(-22deg);
+  }
+  10% {
+    -ms-transform: rotate(22deg);
+  }
+  12% {
+    -ms-transform: rotate(-18deg);
+  }
+  14% {
+    -ms-transform: rotate(18deg);
+  }
+  16% {
+    -ms-transform: rotate(-12deg);
+  }
+  18% {
+    -ms-transform: rotate(12deg);
+  }
+  20% {
+    -ms-transform: rotate(0deg);
+  }
+}
+@keyframes ringing {
+  0% {
+    transform: rotate(-15deg);
+  }
+  2% {
+    transform: rotate(15deg);
+  }
+  4% {
+    transform: rotate(-18deg);
+  }
+  6% {
+    transform: rotate(18deg);
+  }
+  8% {
+    transform: rotate(-22deg);
+  }
+  10% {
+    transform: rotate(22deg);
+  }
+  12% {
+    transform: rotate(-18deg);
+  }
+  14% {
+    transform: rotate(18deg);
+  }
+  16% {
+    transform: rotate(-12deg);
+  }
+  18% {
+    transform: rotate(12deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+}
+/* line 266, ../sass/impronta.scss */
+#sidemenu-toggle-cont {
+  /*background:#eee;*/
+  color: #fff;
+  margin-left: 20px;
+  border-bottom: 5px solid #eee;
+}
+
+/* line 273, ../sass/impronta.scss */
+.navbar-right a:hover span, .navbar-right a:hover i {
+  color: #fff;
+}
+
+/* line 277, ../sass/impronta.scss */
+.label-ml {
+  background: #9BDB2B;
+  color: #DFFF5F;
+}
+
+/* line 283, ../sass/impronta.scss */
+footer {
+  background: #FBFBFB;
+  color: #B1B0A7;
+}
+
+/* line 288, ../sass/impronta.scss */
+#footer-social-links-cont a, #navigazione-footer a {
+  color: #B1B0A7 !important;
+}
+
+/* line 292, ../sass/impronta.scss */
+#footer-social-links-cont a:hover, #navigazione-footer a:hover {
+  color: #E1E1E1 !important;
+  text-decoration: none;
+}
+
+/* line 297, ../sass/impronta.scss */
+#footer-spacer {
+  height: 50px;
+}
+
+/* line 301, ../sass/impronta.scss */
+#footer-last {
+  height: 50px;
+  background: #E1E1E1;
+}
+
+/* line 306, ../sass/impronta.scss */
+#footer-last a {
+  font-size: 12px;
+}
+
+/* line 310, ../sass/impronta.scss */
+.heading-divider {
+  border-bottom: 4px solid #F7F7F7;
+  margin-top: -2px;
+}
+
+/* line 315, ../sass/impronta.scss */
+footer .title {
+  margin-bottom: 10px;
+  border-bottom: 3px solid #eee;
+  padding-bottom: 10px;
+}
+
+/* line 321, ../sass/impronta.scss */
+#navigazione-footer {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 326, ../sass/impronta.scss */
+#tags-footer-container {
+  line-height: 30px;
+}
+
+/* line 330, ../sass/impronta.scss */
+#tags-footer-container .label {
+  border: 1px solid #B1B0A7;
+  color: #B1B0A7;
+  font-size: 13px;
+  white-space: normal;
+  text-transform: uppercase;
+}
+
+/* line 338, ../sass/impronta.scss */
+#tags-footer-container a:hover {
+  text-decoration: none;
+}
+
+/* line 342, ../sass/impronta.scss */
+#tags-footer-container a:hover .label {
+  background: #B1B0A7;
+  color: #fff;
+}
+
+/* line 347, ../sass/impronta.scss */
+#footer-last {
+  line-height: 40px;
+}
+
+/* line 351, ../sass/impronta.scss */
+#footer-last .col-xs-4 {
+  text-align: center;
+}
+
+/* line 355, ../sass/impronta.scss */
+#footer-last a {
+  color: #B1B0A7;
+}
+
+/* line 359, ../sass/impronta.scss */
+#footer-last a:hover {
+  color: #888;
+  text-decoration: none;
+}
+
+/* line 364, ../sass/impronta.scss */
+.submenu-icon-cont {
+  text-align: center;
+}
+
+/* line 368, ../sass/impronta.scss */
+.submenu-icon {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #fff;
+}
+
+/* line 378, ../sass/impronta.scss */
+#submenu a.btn {
+  white-space: normal;
+}
+
+/* line 382, ../sass/impronta.scss */
+.footer-col {
+  margin-bottom: 50px;
+}
+
+/* line 386, ../sass/impronta.scss */
+.prezzo {
+  font-size: 50px;
+  line-height: 50px;
+  color: #FF8F3C;
+}
+
+/* line 392, ../sass/impronta.scss */
+.prezzo-unitario {
+  font-size: 20px;
+  line-height: 20px;
+  color: #ccc;
+}
+
+/* line 398, ../sass/impronta.scss */
+.breadcrumb a:hover {
+  text-decoration: none;
+}
+
+/* line 402, ../sass/impronta.scss */
+.label-articolo {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: auto !important;
+  z-index: 10;
+  position: relative;
+  top: 20px;
+}
+
+/* line 419, ../sass/impronta.scss */
+.text-sm {
+  font-size: 90%;
+}
+
+/* line 423, ../sass/impronta.scss */
+.box-categoria {
+  margin: 5px;
+  height: 200px;
+  border-radius: 4px;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* line 434, ../sass/impronta.scss */
+.box-categoria .link {
+  color: #9BDB2B;
+}
+
+/* line 438, ../sass/impronta.scss */
+.box-categoria .link:hover {
+  color: #ffffff;
+}
+
+/* line 442, ../sass/impronta.scss */
+.box-categoria .img {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* line 447, ../sass/impronta.scss */
+.box-categoria .dettagli {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  height: 100% !important;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+}
+
+/* line 457, ../sass/impronta.scss */
+.box-articolo {
+  margin: 5px;
+  height: 200px;
+  border-radius: 4px;
+  background: #f9f9f9;
+  position: relative;
+}
+
+/* line 465, ../sass/impronta.scss */
+.box-articolo .img {
+  height: 200px;
+  border-top-left-radius: 4px;
+  /*border-bottom-left-radius: 4px;*/
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: left;
+  /*center;*/
+  background-size: auto 100%;
+  /*cover;*/
+}
+
+/* line 475, ../sass/impronta.scss */
+.box-articolo .dettagli {
+  padding-top: 10px;
+}
+
+/* line 479, ../sass/impronta.scss */
+.box-articolo .nome {
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 486, ../sass/impronta.scss */
+.box-articolo .nome a {
+  color: #777;
+}
+
+/* line 490, ../sass/impronta.scss */
+.box-articolo .nome a:hover {
+  color: #aaa;
+}
+
+/* line 494, ../sass/impronta.scss */
+.box-articolo .fornitore {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 500, ../sass/impronta.scss */
+.box-articolo .fornitore a {
+  color: #FF8F3C;
+}
+
+/* line 504, ../sass/impronta.scss */
+.box-articolo .fornitore a:hover {
+  color: #ffcaa2;
+}
+
+/* line 508, ../sass/impronta.scss */
+.box-articolo .prezzo {
+  font-size: 25px;
+}
+
+/* line 512, ../sass/impronta.scss */
+.box-articolo .prezzo-unitario {
+  font-size: 14px;
+}
+
+/* line 516, ../sass/impronta.scss */
+.box-articolo .confezione {
+  color: #9BDB2B;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 523, ../sass/impronta.scss */
+.box-articolo .tags {
+  background: #eee;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 10px;
+}
+
+/* line 530, ../sass/impronta.scss */
+.aggiungi-al-carrello {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  position: relative;
+  top: -34px;
+  left: 130px;
+  transition: background 0.3s ease-in-out 0s;
+}
+
+/* line 541, ../sass/impronta.scss */
+.aggiungi-al-carrello2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  transition: background 0.3s ease-in-out 0s;
+}
+
+/* line 549, ../sass/impronta.scss */
+.aggiungi-al-carrello:hover, .aggiungi-al-carrello2:hover {
+  background: #555;
+}
+
+/* line 553, ../sass/impronta.scss */
+.triangle-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 20;
+}
+
+/* line 560, ../sass/impronta.scss */
+#toast {
+  position: fixed;
+  bottom: -20px;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* line 567, ../sass/impronta.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 571, ../sass/impronta.scss */
+.dettagli-consegna .prezzo {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+/* line 576, ../sass/impronta.scss */
+.dettagli-consegna .row {
+  line-height: 30px;
+}
+
+/* line 580, ../sass/impronta.scss */
+a.bkg-orange:hover, a.bkg-dark-yellow:hover, a.bkg-green:hover {
+  background: #555;
+}
+
+/* line 584, ../sass/impronta.scss */
+.text-green {
+  color: #9BDB2B;
+}
+
+/* line 588, ../sass/impronta.scss */
+.text-orange {
+  color: #FF8F3C;
+}
+
+/* line 592, ../sass/impronta.scss */
+.text-light-grey {
+  color: #ccc;
+}
+
+/* line 596, ../sass/impronta.scss */
+.text-grey {
+  color: #777;
+}
+
+/* line 601, ../sass/impronta.scss */
+.settimana-heading {
+  border-bottom: 5px solid #FFC232 !important;
+  color: #777 !important;
+}
+
+/* line 606, ../sass/impronta.scss */
+.profilo-heading {
+  border-bottom: 5px solid #FF8F3C !important;
+  color: #777 !important;
+}
+
+/* line 611, ../sass/impronta.scss */
+.settimana .totale {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/* line 616, ../sass/impronta.scss */
+.riga-consegne {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+/* line 623, ../sass/impronta.scss */
+.riga-consegne.subtotale, .riga-consegne.totale {
+  background: #f9f9f9;
+}
+
+/* line 627, ../sass/impronta.scss */
+.riga-consegne.totale {
+  border-top: 1px solid #ddd;
+}
+
+/* line 631, ../sass/impronta.scss */
+#sidemenu-cont {
+  margin-bottom: 20px;
+  /* per staccare dal contenuto in mobile */
+}
+
+/* line 635, ../sass/impronta.scss */
+.settimana .panel-title {
+  line-height: 25px;
+}
+
+/* line 639, ../sass/impronta.scss */
+#ordine-provvisorio-actions-container {
+  width: 100%;
+}
+
+/* line 643, ../sass/impronta.scss */
+#ordine-provvisorio-actions-container a {
+  width: 100%;
+}
+
+/* line 647, ../sass/impronta.scss */
+.riga-consegne .confezione {
+  color: #999;
+  font-size: 12px;
+}
+
+/* line 652, ../sass/impronta.scss */
+.qta {
+  background: #fff !important;
+}
+
+/* line 656, ../sass/impronta.scss */
+#sidemenu-ml h5 {
+  line-height: 1.5em;
+  color: #FFF880;
+}
+
+/* line 661, ../sass/impronta.scss */
+#data-prossima-consegna {
+  line-height: 1em;
+  color: #FEE37A;
+}
+
+/* line 666, ../sass/impronta.scss */
+#data-prossimo-ml {
+  color: #FFF880 !important;
+}
+
+/* line 670, ../sass/impronta.scss */
+.text-line-through {
+  text-decoration: line-through;
+}
+
+/* line 674, ../sass/impronta.scss */
+.riepilogo-consegna {
+  color: #aaa;
+}
+
+/* line 678, ../sass/impronta.scss */
+.tipo-spesa {
+  line-height: 24px;
+}
+
+/* line 682, ../sass/impronta.scss */
+.riga-provvisoria {
+  background: #FFFBCB !important;
+}
+
+/* line 686, ../sass/impronta.scss */
+.box-categoria a {
+  line-height: 30px;
+}
+
+/* line 690, ../sass/impronta.scss */
+#categorie-ml a {
+  text-transform: uppercase;
+}
+
+/* line 694, ../sass/impronta.scss */
+.tags-container {
+  line-height: 30px;
+}
+
+/* line 698, ../sass/impronta.scss */
+.tags-container .label {
+  border: 1px solid #777;
+  color: #777;
+  text-transform: uppercase;
+}
+
+/* line 704, ../sass/impronta.scss */
+.tags-container a:hover {
+  text-decoration: none;
+}
+
+/* line 708, ../sass/impronta.scss */
+.tags-container a:hover .label {
+  background: #777;
+  color: #fff;
+}
+
+/* line 713, ../sass/impronta.scss */
+.scheda-articolo .prezzo {
+  line-height: 60px;
+}
+
+/* line 717, ../sass/impronta.scss */
+.scheda-articolo .aggiungi-al-carrello2 {
+  width: 200px;
+}
+
+/* line 721, ../sass/impronta.scss */
+.tags-scheda-articolo-container {
+  padding: 10px;
+  font-size: 16px !important;
+}
+
+/* line 726, ../sass/impronta.scss */
+.consegne-actions-container a {
+  white-space: normal;
+  text-transform: uppercase;
+}
+
+/* line 731, ../sass/impronta.scss */
+#ordine-provvisorio a {
+  white-space: normal;
+}
+
+/* line 735, ../sass/impronta.scss */
+.consegna-provvisoria {
+  background: #FFFBCB;
+}
+
+/* modifiche richieste da zolle */
+/* line 740, ../sass/impronta.scss */
+.riga-consegne {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 745, ../sass/impronta.scss */
+.dettagli-consegna .row {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+/* line 750, ../sass/impronta.scss */
+.settimana {
+  /*border-color: #000;*/
+}
+
+/* line 754, ../sass/impronta.scss */
+.alert-zolle {
+  background: #FF8BFA;
+  color: #D60093;
+}
+
+/* /modifiche richieste da zolle*/
+/* line 762, ../sass/impronta.scss */
+.error-message {
+  color: red;
+}
+
+/* overwrite per pulsanti colore profilo a pulsanti con colore ml*/
+/* line 767, ../sass/impronta.scss */
+a.bkg-orange, button.bkg-orange {
+  background: #FF8F3C;
+}
+
+/* line 771, ../sass/impronta.scss */
+#submenu a.bkg-orange {
+  background: #FF8F3C;
+}
+
+/* end of overwrite */
+/* line 776, ../sass/impronta.scss */
+#footer-contatti a {
+  color: #B1B0A7 !important;
+}
+
+/* line 780, ../sass/impronta.scss */
+#footer-contatti a:hover {
+  color: #E1E1E1 !important;
+  text-decoration: none;
+}

@@ -1,0 +1,1 @@
+ESTRAZIONE STRINGHE i18n:  ./Console/cake i18n extract --extract-core no 

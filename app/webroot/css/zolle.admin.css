@@ -1,0 +1,24 @@
+.bkg-blue {
+	background: #D0E2FF !important;
+}
+
+.bkg-blue:hover {
+	background: #BCD3FF !important;
+}
+
+.yellow {
+	color: #FFB650;
+}
+
+.unselected {
+	color: #888 !important;
+	background: #999 !important;
+}
+
+.infobox {
+	height: 100px !important;
+}
+
+.error-message {
+	color:red;
+}
